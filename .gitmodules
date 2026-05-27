@@ -1,0 +1,3 @@
+[submodule "plugins/pawa-downloads"]
+	path = plugins/pawa-downloads
+	url = https://github.com/mwangepatrick/pawa-downloads.git
