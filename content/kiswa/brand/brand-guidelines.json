@@ -1,0 +1,165 @@
+{
+  "organization": "Kisumu Sex Workers Alliance (KISWA)",
+  "tagline": "Empowering Sex Workers, Embracing Our Outlaw Spirit, Spreading Love and Care Everywhere.",
+
+  "colors": {
+    "primary": [
+      {
+        "name": "Turquoise",
+        "hex": "#53C3BD",
+        "rgb": "83, 195, 189",
+        "cmyk": "62.19%, 0%, 30.65%, 0%",
+        "usage": "Main brand identity color; used for headlines, key text elements, and the most prominent branded materials.",
+        "psychology": "Compassion, calmness, clarity, trust, and communication."
+      },
+      {
+        "name": "Red",
+        "hex": "#EC2127",
+        "rgb": "236, 33, 39",
+        "cmyk": "0.29%, 99.08%, 97.25%, 0.09%",
+        "usage": "Used sparingly for calls to action, highlights, warnings, and accent elements.",
+        "psychology": "Love, power, passion, energy, strength, and desire."
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "rgb": "0, 0, 0",
+        "cmyk": "74.97%, 67.92%, 67.05%, 90.15%",
+        "usage": "Body text, subheadings, and supporting text elements.",
+        "psychology": "Maturity, prestige, value, timelessness, formality, and sophistication."
+      }
+    ],
+    "secondary": [
+      {
+        "name": "Gold",
+        "hex": "#FCCD15",
+        "rgb": "252, 205, 21",
+        "cmyk": "1.31%, 18%, 97.62%, 0%",
+        "usage": "Accent color for warmth and sophistication; used in combination with turquoise or black.",
+        "psychology": "Prestige, luxury, royalty, influence."
+      }
+    ]
+  },
+
+  "typography": {
+    "primary": {
+      "family": "Lato",
+      "size": 11,
+      "lineSpacing": 1.2,
+      "usage": "Body copy; can be paired with any other brand font. MUST be used when pairing fonts."
+    },
+    "secondary": {
+      "family": "Open Sans",
+      "size": 13,
+      "lineSpacing": 1.5,
+      "usage": "Subtitles in all cases and variations."
+    },
+    "title": {
+      "family": "Montserrat",
+      "size": 16,
+      "lineSpacing": 1.4,
+      "style": "Bold, upper and lowercase",
+      "usage": "Titles only."
+    },
+    "supporting": {
+      "family": "Source Serif Pro",
+      "size": 12,
+      "lineSpacing": 1.5,
+      "style": "Lowercase, italicized",
+      "usage": "Lowercase and italicized copy only."
+    },
+    "alignment": "Left for body; center for short headlines sparingly; right only for special cases."
+  },
+
+  "logo": {
+    "versions": [
+      {
+        "type": "Primary Logo",
+        "ratio": "1.2:1 (width:height)",
+        "placement": "Centered on all communication materials",
+        "clearSpace": "2 cm around the logo on all sides"
+      },
+      {
+        "type": "Secondary Logo",
+        "ratio": "1.6:1",
+        "usage": "Simplified version; use where primary logo fits less well."
+      },
+      {
+        "type": "Sub-Mark Logo",
+        "ratio": "3:1",
+        "usage": "Consistent with primary look; use where primary does not fit as desired."
+      },
+      {
+        "type": "Logo Mark",
+        "ratio": "1.5:1 (height:width)",
+        "usage": "Use across all social media for consistency; abbreviated version for space-limited contexts."
+      },
+      {
+        "type": "Reversed Version",
+        "usage": "Use on dark backgrounds to maintain visibility."
+      }
+    ],
+    "sizes": {
+      "web": {
+        "website": "250 x 150 px",
+        "favicon": "48 x 48 px",
+        "emailSignature": "320 x 100 px"
+      },
+      "socialMedia": {
+        "facebook": "180 x 180 px",
+        "twitter": "400 x 400 px",
+        "instagram": "110 x 110 px",
+        "linkedIn": "400 x 400 px",
+        "tikTok": "20 x 20 px",
+        "youTube": "800 x 800 px"
+      },
+      "print": {
+        "businessCards": "3.5 x 2 inches",
+        "mugs": "7.5 x 3 inches",
+        "hats": "3–3.5 inches wide",
+        "tShirts": "14 x 15 inches (print area), 4⅜ x 5⅜ inches (pockets)",
+        "toteBags": "14 x 16 inches",
+        "letterheads": "210 x 297 mm",
+        "envelopes": "4⅛ x 9½ inches"
+      }
+    }
+  },
+
+  "voiceAndTone": {
+    "personality": ["Outlaw", "Lover", "Caregiver"],
+    "voice": ["Loud / Assertive", "Passionate", "Warm"],
+    "formality": "Slightly casual — maintain relatability and flexibility.",
+    "clarity": "Clear and easy to understand; avoid jargon and complex language.",
+    "humor": "Consistent with brand personality and values; use carefully.",
+    "empathy": "Acknowledge the audience's needs and concerns using empathetic language.",
+    "storytelling": "Use storytelling to create emotional connection; align with brand values.",
+    "writingStyle": {
+      "voice": "Active voice preferred over passive.",
+      "language": "Inclusive, respectful, and sensitive to all audience members.",
+      "emotion": "Evoke positive emotions: happiness, excitement, joy.",
+      "jargon": "Minimize; always define when used.",
+      "slang": "Use when consistent with brand personality; use carefully."
+    }
+  },
+
+  "imagery": {
+    "style": "Clean and sophisticated — simple, elegant, professional, trustworthy. Well-lit with clean backgrounds and minimal distractions.",
+    "color": "Consistent with brand color palette.",
+    "web": {
+      "size": "1200 px wide",
+      "resolution": "72 dpi",
+      "fileTypes": ["JPEG", "PNG", "GIF"]
+    },
+    "print": {
+      "size": "3000 px wide or higher",
+      "resolution": "300 dpi",
+      "fileTypes": ["TIFF", "EPS"]
+    }
+  },
+
+  "messagingExamples": {
+    "socialMediaPost": "We're proud to be outlaws, lovers, and caregivers in our community. We stand up for our rights and support each other every step of the way. Join us and let your voice be heard! #sexworkiswork #outlawlovercaregiver",
+    "websiteTagline": "Empowering Sex Workers, Embracing Our Outlaw Spirit, Spreading Love and Care Everywhere.",
+    "brochureCopy": "Join the movement of strong, passionate sex workers who are making a difference. Our community is built on love, care, and mutual respect. We're outlaws fighting for our rights, lovers sharing our hearts, and caregivers supporting each other. We're here for you, always."
+  }
+}

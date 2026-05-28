@@ -1,0 +1,137 @@
+{
+  "name": "Primary Navigation",
+  "slug": "main-menu",
+  "location": "primary",
+  "items": [
+    {
+      "order": 1,
+      "title": "Home",
+      "url": "/",
+      "type": "page",
+      "slug": "home"
+    },
+    {
+      "order": 2,
+      "title": "About Us",
+      "url": "/about",
+      "type": "page",
+      "slug": "about",
+      "children": [
+        {
+          "order": 1,
+          "title": "Our Story",
+          "url": "/about#background"
+        },
+        {
+          "order": 2,
+          "title": "Vision, Mission & Values",
+          "url": "/about#vision-mission-values"
+        },
+        {
+          "order": 3,
+          "title": "Core Values",
+          "url": "/about#core-values"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Programmes",
+      "url": "/service/",
+      "type": "page",
+      "slug": "service",
+      "children": [
+        {
+          "order": 1,
+          "title": "Sensitization & Awareness",
+          "url": "/service/#sensitization"
+        },
+        {
+          "order": 2,
+          "title": "Advocacy & Partnerships",
+          "url": "/service/#advocacy"
+        },
+        {
+          "order": 3,
+          "title": "Access to Health Care",
+          "url": "/service/#health"
+        },
+        {
+          "order": 4,
+          "title": "Socio-Economic Empowerment",
+          "url": "/service/#empowerment"
+        },
+        {
+          "order": 5,
+          "title": "Organizational Strengthening",
+          "url": "/service/#org-strengthening"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Get Involved",
+      "url": "/volunteers",
+      "type": "page",
+      "slug": "volunteers",
+      "children": [
+        {
+          "order": 1,
+          "title": "Donate",
+          "url": "/donation/"
+        },
+        {
+          "order": 2,
+          "title": "Volunteers",
+          "url": "/volunteers/"
+        },
+        {
+          "order": 3,
+          "title": "Causes",
+          "url": "/causes/"
+        },
+        {
+          "order": 4,
+          "title": "FAQ",
+          "url": "/faqs/"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Updates",
+      "url": "/blog",
+      "type": "archive",
+      "post_type": "post",
+      "children": [
+        {
+          "order": 1,
+          "title": "Blog",
+          "url": "/blog/"
+        },
+        {
+          "order": 2,
+          "title": "Events",
+          "url": "/our-events/"
+        },
+        {
+          "order": 3,
+          "title": "Gallery",
+          "url": "/our-gallery/"
+        },
+        {
+          "order": 4,
+          "title": "Downloads",
+          "url": "/downloads/"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Contact",
+      "url": "/contact",
+      "type": "page",
+      "slug": "contact"
+    }
+  ]
+}

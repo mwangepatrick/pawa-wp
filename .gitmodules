@@ -1,3 +1,6 @@
 [submodule "plugins/pawa-downloads"]
 	path = plugins/pawa-downloads
 	url = https://github.com/mwangepatrick/pawa-downloads.git
+[submodule "pawa-wp-mcp"]
+	path = pawa-wp-mcp
+	url = git@github.com-personal:mwangepatrick/pawa-wp-mcp.git

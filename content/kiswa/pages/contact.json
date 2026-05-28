@@ -1,0 +1,73 @@
+{
+  "title": "Contact Us",
+  "slug": "contact",
+  "type": "page",
+  "status": "draft",
+  "sections": [
+    {
+      "id": "page-hero",
+      "type": "page-hero",
+      "heading": "Contact Us",
+      "subheading": "Reach out to KISWA — we're here for you.",
+      "breadcrumb": ["Home", "Contact"]
+    },
+    {
+      "id": "contact-intro",
+      "type": "text-block",
+      "heading": "We're Here for You",
+      "body": "<p>Whether you're a sex worker seeking support, an organization interested in partnership, a researcher, or an ally — we want to hear from you. KISWA is rooted in community, and every connection matters.</p><p>All communications are treated with the utmost confidentiality.</p>"
+    },
+    {
+      "id": "contact-details",
+      "type": "contact-info",
+      "details": {
+        "organization": "Kisumu Sex Workers Alliance (KISWA)",
+        "registered_name": "Kisumu Central Smart Women Against Violence and HIV/AIDS",
+        "location": "Kisumu Town, Kisumu, Kenya",
+        "region": "Nyanza Region (Kisumu, Siaya, Homa Bay, Migori, Kisii)",
+        "email": "[KISWA contact email — to be filled]",
+        "phone": "[KISWA contact phone — to be filled]",
+        "founded": "2014",
+        "registered": "July 2016"
+      }
+    },
+    {
+      "id": "contact-form",
+      "type": "contact-form",
+      "heading": "Send Us a Message",
+      "fields": [
+        { "name": "name", "label": "Your Name", "type": "text", "required": true },
+        { "name": "email", "label": "Email Address", "type": "email", "required": true },
+        { "name": "subject", "label": "Subject", "type": "text", "required": true },
+        {
+          "name": "reason",
+          "label": "Reason for Contact",
+          "type": "select",
+          "required": false,
+          "options": [
+            "I need support or services",
+            "Partnership or collaboration inquiry",
+            "Donation or funding",
+            "Research or media inquiry",
+            "General information",
+            "Other"
+          ]
+        },
+        { "name": "message", "label": "Your Message", "type": "textarea", "required": true },
+        {
+          "name": "confidentiality_note",
+          "type": "info-note",
+          "text": "All messages are treated with strict confidentiality in accordance with KISWA's values."
+        }
+      ],
+      "submit_label": "Send Message",
+      "success_message": "Thank you for reaching out. We will get back to you as soon as possible."
+    },
+    {
+      "id": "coverage-area",
+      "type": "text-block",
+      "heading": "Our Coverage Area",
+      "body": "<p>KISWA serves sex workers across <strong>five counties in the Nyanza Region</strong>:</p><ul><li>Kisumu</li><li>Siaya</li><li>Homa Bay</li><li>Migori</li><li>Kisii</li></ul>"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "title": "Home",
+  "slug": "home",
+  "type": "page",
+  "status": "draft",
+  "template": "front-page",
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "heading": "Fighting for Rights. Spreading Love. Caring for Each Other.",
+      "subheading": "Kisumu Sex Workers Alliance (KISWA) — a sex worker-led coalition empowering communities across the Nyanza Region.",
+      "cta_primary": {
+        "label": "Who We Are",
+        "url": "/about"
+      },
+      "cta_secondary": {
+        "label": "Our Programmes",
+        "url": "/service/"
+      },
+      "background": "full-width image of Kisumu/Nyanza community scene, warm and empowering tone"
+    },
+    {
+      "id": "about-intro",
+      "type": "text-image",
+      "heading": "Born from Crisis. Built by Community.",
+      "body": "<p>KISWA emerged from the frontlines. In response to brutal killings targeting sex workers in Kisumu and the absence of any organization truly led by sex workers, a group of dedicated peer educators came together with a single, powerful vision: to build something of their own.</p><p>Today, KISWA is a coalition of <strong>22 registered sex worker-led groups</strong> across Kisumu, Siaya, Homa Bay, Migori, and Kisii — advocating for health, legal rights, and human dignity every single day.</p>",
+      "link": {
+        "label": "Read Our Story",
+        "url": "/about"
+      },
+      "image_alt": "KISWA community members advocating for rights"
+    },
+    {
+      "id": "vision-mission",
+      "type": "two-column",
+      "columns": [
+        {
+          "heading": "Our Vision",
+          "icon": "eye",
+          "body": "A society where sex workers' rights are respected and upheld."
+        },
+        {
+          "heading": "Our Mission",
+          "icon": "fist",
+          "body": "To promote sex workers' rights through policy change advocacy, socio-economic empowerment, research, and documentation in Nyanza Region, Kenya."
+        }
+      ]
+    },
+    {
+      "id": "programs-overview",
+      "type": "cards",
+      "heading": "What We Do",
+      "subheading": "Five strategic areas drive our work.",
+      "cards": [
+        {
+          "title": "Sensitization & Awareness",
+          "summary": "We create awareness among sex workers on their rights — empowering them to recognize and speak against violence.",
+          "link": "/service/#sensitization"
+        },
+        {
+          "title": "Advocacy & Partnerships",
+          "summary": "We influence decision-makers to enact policies that recognize and respect sex workers' rights.",
+          "link": "/service/#advocacy"
+        },
+        {
+          "title": "Access to Health Care",
+          "summary": "We increase access to health services through community demand, essential commodities, and referral support.",
+          "link": "/service/#health"
+        },
+        {
+          "title": "Socio-Economic Empowerment",
+          "summary": "We improve the social and financial welfare of sex workers through skills, knowledge, and opportunity.",
+          "link": "/service/#empowerment"
+        },
+        {
+          "title": "Organizational Strengthening",
+          "summary": "We build KISWA's capacity and operational structures to effectively deliver our mission.",
+          "link": "/service/#org-strengthening"
+        }
+      ]
+    },
+    {
+      "id": "values-strip",
+      "type": "icon-list",
+      "heading": "What We Stand For",
+      "values": [
+        { "label": "Commitment", "icon": "heart" },
+        { "label": "Professionalism", "icon": "award" },
+        { "label": "Teamwork", "icon": "users" },
+        { "label": "Confidentiality", "icon": "shield" },
+        { "label": "Integrity", "icon": "star" }
+      ]
+    },
+    {
+      "id": "cta-banner",
+      "type": "cta-banner",
+      "heading": "Together We Go Further.",
+      "body": "KISWA is built on love, care, and the unbreakable will of sex workers who refuse to be silenced. Join the movement.",
+      "cta": {
+        "label": "Get in Touch",
+        "url": "/contact"
+      }
+    }
+  ]
+}

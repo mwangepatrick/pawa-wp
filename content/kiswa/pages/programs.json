@@ -1,0 +1,114 @@
+{
+  "title": "Our Programmes",
+  "slug": "service",
+  "type": "page",
+  "status": "draft",
+  "sections": [
+    {
+      "id": "page-hero",
+      "type": "page-hero",
+      "heading": "Our Programmes",
+      "subheading": "Five strategic initiatives driving health, rights, and empowerment across Nyanza Region.",
+      "breadcrumb": ["Home", "Programmes"]
+    },
+    {
+      "id": "intro",
+      "type": "text-block",
+      "heading": "What We Do",
+      "body": "<p>KISWA's work is organized around five strategic focus areas. Each initiative addresses a critical dimension of sex workers' lives — from safety and health to livelihoods and policy. Together, they form a holistic framework for lasting change.</p>"
+    },
+    {
+      "id": "initiative-1",
+      "type": "program-block",
+      "anchor": "sensitization",
+      "number": "01",
+      "heading": "Sensitization and Awareness",
+      "subheading": "Strategic Initiative One",
+      "objective": "To create awareness amongst sex workers in the Nyanza Region on their rights — as measured by their ability to recognize and speak against violence, health knowledge, and safety and security.",
+      "body": "<p>Knowledge is power. KISWA runs targeted sensitization campaigns that equip sex workers with the tools to understand their rights, identify abuse, and respond confidently to threats against their safety and well-being.</p><p>From peer-led education sessions to community forums, this initiative ensures that no sex worker in Nyanza is left without the information they need to protect themselves and their community.</p>",
+      "highlights": [
+        "Community rights education",
+        "Violence recognition and response",
+        "Health and safety awareness",
+        "Security training for sex workers"
+      ]
+    },
+    {
+      "id": "initiative-2",
+      "type": "program-block",
+      "anchor": "advocacy",
+      "number": "02",
+      "heading": "Advocacy, Dialogue and Partnerships",
+      "subheading": "Strategic Initiative Two",
+      "objective": "To influence decision-makers to enact policies that recognize and respect the rights of sex workers — as measured by increases in friendly working conditions and access to health care services.",
+      "body": "<p>Policy changes don't happen by accident. KISWA engages lawmakers, community leaders, and institutional partners in structured dialogue to push for legal and regulatory environments that protect sex workers rather than criminalize them.</p><p>We build partnerships with health institutions, law enforcement, and civil society organizations to bridge the gap between sex workers and the systems meant to serve them.</p>",
+      "highlights": [
+        "Policy advocacy and legislative engagement",
+        "Dialogue with law enforcement agencies",
+        "Partnerships with health institutions",
+        "Coalition building with civil society"
+      ]
+    },
+    {
+      "id": "initiative-3",
+      "type": "program-block",
+      "anchor": "health",
+      "number": "03",
+      "heading": "Access to Health Care",
+      "subheading": "Strategic Initiative Three",
+      "objective": "To increase access to health services through support in community demand creation, provision of essential commodities, referral, and infection prevention strategies for sex workers.",
+      "body": "<p>Sex workers face significant barriers to accessing quality health care — from stigma at clinics to lack of knowledge about available services. KISWA breaks down these barriers through direct community engagement, ensuring sex workers can access the care they need with dignity.</p><p>This initiative covers HIV/AIDS prevention, sexual and reproductive health, mental health referrals, and access to essential commodities including contraceptives and protective gear.</p>",
+      "highlights": [
+        "HIV/AIDS prevention and support",
+        "Sexual and reproductive health services",
+        "Provision of essential health commodities",
+        "Referral pathways to health facilities",
+        "Infection prevention and control"
+      ]
+    },
+    {
+      "id": "initiative-4",
+      "type": "program-block",
+      "anchor": "empowerment",
+      "number": "04",
+      "heading": "Socio-Economic Empowerment",
+      "subheading": "Strategic Initiative Four",
+      "objective": "To improve the social and financial welfare of sex workers through provision and access to knowledge and skills, aimed at uplifting their living and working conditions.",
+      "body": "<p>Economic independence is inseparable from dignity and safety. KISWA provides sex workers with practical entrepreneurship training, financial literacy, and access to economic resources that reduce vulnerability and expand choices.</p><p>We believe that when sex workers have economic power, they have more agency over their lives — including safer working conditions, better housing, and more ability to support their families and communities.</p>",
+      "highlights": [
+        "Entrepreneurship training and mentorship",
+        "Financial literacy programs",
+        "Access to economic resources and support",
+        "Skills development and capacity building",
+        "Livelihood improvement programs"
+      ]
+    },
+    {
+      "id": "initiative-5",
+      "type": "program-block",
+      "anchor": "org-strengthening",
+      "number": "05",
+      "heading": "Organizational Strengthening",
+      "subheading": "Strategic Initiative Five",
+      "objective": "To strengthen KISWA's organizational and operational structures to effectively deliver its mission.",
+      "body": "<p>A strong organization is the foundation for strong advocacy. KISWA continuously invests in its own capacity — from governance and financial management to staff development and institutional systems — to ensure we can deliver on our commitments to the community we serve.</p><p>This includes strengthening our member groups across all five counties in Nyanza, supporting peer leaders, and building the administrative infrastructure needed for long-term sustainability.</p>",
+      "highlights": [
+        "Governance and institutional development",
+        "Staff and peer leader capacity building",
+        "Financial management systems",
+        "Member group support across 5 counties",
+        "Monitoring, evaluation, and learning"
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "cta-banner",
+      "heading": "Want to Support Our Work?",
+      "body": "Whether through partnerships, funding, or solidarity — we welcome allies who share our commitment to sex worker rights and dignity.",
+      "cta": {
+        "label": "Get in Touch",
+        "url": "/contact"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Footer Menu",
+  "slug": "footer-menu",
+  "location": "footer",
+  "items": [
+    {
+      "order": 1,
+      "title": "About Us",
+      "url": "/about",
+      "type": "page",
+      "slug": "about"
+    },
+    {
+      "order": 2,
+      "title": "Programmes",
+      "url": "/service/",
+      "type": "page",
+      "slug": "service"
+    },
+    {
+      "order": 3,
+      "title": "Donate",
+      "url": "/donation/",
+      "type": "page",
+      "slug": "donation"
+    },
+    {
+      "order": 4,
+      "title": "Blog",
+      "url": "/blog/",
+      "type": "archive",
+      "post_type": "post"
+    },
+    {
+      "order": 5,
+      "title": "Downloads",
+      "url": "/downloads/",
+      "type": "page",
+      "slug": "downloads"
+    },
+    {
+      "order": 6,
+      "title": "FAQ",
+      "url": "/faqs/",
+      "type": "page",
+      "slug": "faqs"
+    },
+    {
+      "order": 7,
+      "title": "Contact",
+      "url": "/contact",
+      "type": "page",
+      "slug": "contact"
+    },
+    {
+      "order": 8,
+      "title": "Privacy Policy",
+      "url": "/privacy-policy",
+      "type": "page",
+      "slug": "privacy-policy"
+    }
+  ]
+}

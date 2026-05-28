@@ -1,0 +1,86 @@
+{
+  "title": "About Us",
+  "slug": "about",
+  "type": "page",
+  "status": "draft",
+  "sections": [
+    {
+      "id": "page-hero",
+      "type": "page-hero",
+      "heading": "About KISWA",
+      "subheading": "A sex worker-led coalition standing for health, dignity, and rights across Nyanza Region, Kenya.",
+      "breadcrumb": ["Home", "About Us"]
+    },
+    {
+      "id": "background",
+      "type": "long-text",
+      "heading": "Our Background",
+      "body": "<p>Kisumu Sex Workers Alliance (KISWA) is a sex worker, feminist, non-profit, non-political coalition of 22 registered sex worker-led groups in the Nyanza Region — covering Kisumu, Siaya, Homa Bay, Migori, and Kisii. Formed in 2014, KISWA was built by sex workers who had spent over eight years navigating Kenya's most hostile environments for their community.</p><p>KISWA emerged as a direct response to a grave crisis: the brutal killings of numerous sex workers, the shocking discovery of foreign objects forcibly inserted into their bodies, arbitrary arrests by police, and the absence of any organization truly willing to put sex workers first.</p><p>In Kisumu, mainstream groups were more focused on gathering numbers for databases than on providing real support. From a gathering of dedicated peer educators, a vision was born — to create an organization that would prioritize the needs and well-being of sex workers, and fight relentlessly to ensure their safety, dignity, and rights.</p><p>KISWA was registered as <strong>Kisumu Central Smart Women Against Violence and HIV/AIDS</strong> in July 2016, with its office in Kisumu town.</p>"
+    },
+    {
+      "id": "vision-mission-values",
+      "type": "three-column",
+      "heading": "Who We Are",
+      "columns": [
+        {
+          "id": "vision",
+          "heading": "Our Vision",
+          "body": "A society where sex workers' rights are respected and upheld."
+        },
+        {
+          "id": "mission",
+          "heading": "Our Mission",
+          "body": "To promote sex workers' rights through policy change advocacy, socio-economic empowerment, research, and documentation in Nyanza Region, Kenya."
+        },
+        {
+          "id": "positioning",
+          "heading": "How We Show Up",
+          "body": "We are caregivers and advocates. We are loud, passionate, and warm. We combine the spirit of the outlaw, the love of the caregiver, and the fire of the activist."
+        }
+      ]
+    },
+    {
+      "id": "core-values",
+      "type": "values-list",
+      "heading": "Our Core Values",
+      "values": [
+        {
+          "name": "Commitment",
+          "description": "We are fully dedicated to our work and passionate about creating positive change for our community. We approach our work with energy, enthusiasm, and a deep sense of purpose."
+        },
+        {
+          "name": "Professionalism",
+          "description": "We take our responsibilities seriously and are committed to delivering high-quality work at all times. We are diligent, reliable, and strive for excellence in everything we do."
+        },
+        {
+          "name": "Teamwork",
+          "description": "We recognize that we can achieve more together than we can alone. We value collaboration, communication, and cooperation — and are committed to supporting and learning from one another."
+        },
+        {
+          "name": "Confidentiality",
+          "description": "We understand the importance of safeguarding sensitive information and maintaining the privacy of our organization and our members. We handle confidential information with care and respect."
+        },
+        {
+          "name": "Integrity",
+          "description": "We believe in working with honesty, transparency, and accountability. We hold ourselves to the highest ethical standards and are committed to building trust within our organization and beyond."
+        }
+      ]
+    },
+    {
+      "id": "organizational-focus",
+      "type": "text-block",
+      "heading": "Organizational Focus",
+      "body": "<p>KISWA aims to advocate for and empower sex workers to access better health care and economic stability. We do this through:</p><ul><li>Capacity building on entrepreneurship, human rights, and Gender Based Violence response</li><li>Advocating for a favorable environment for sex workers through policy development contributions</li><li>Building better working relationships between sex workers and law enforcement agencies</li><li>Encouraging sex workers to report violations and criminal activities within their knowledge</li></ul>"
+    },
+    {
+      "id": "cta",
+      "type": "cta-inline",
+      "heading": "Join the Movement",
+      "body": "KISWA is made up of and led by sex workers. Our strength comes from our community.",
+      "cta": {
+        "label": "Contact Us",
+        "url": "/contact"
+      }
+    }
+  ]
+}

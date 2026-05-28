@@ -1,0 +1,100 @@
+{
+  "note": "This manifest lists media assets needed for the KISWA website. Actual files should be uploaded to the WordPress media library using wp_get_media and ftp_upload tools.",
+  "logo_assets": [
+    {
+      "id": "primary-logo",
+      "description": "Primary KISWA logo — horizontal layout",
+      "ratio": "1.2:1 (width:height)",
+      "formats_needed": ["SVG", "PNG (transparent)", "PNG (white on dark)", "JPEG"],
+      "use": "Main brand mark across all web and print materials",
+      "source_file": "/mnt/c/Users/ADMIN/Downloads/kiswa.jpg"
+    },
+    {
+      "id": "secondary-logo",
+      "description": "Secondary / simplified KISWA logo",
+      "ratio": "1.6:1",
+      "formats_needed": ["SVG", "PNG (transparent)"],
+      "use": "Use where primary logo does not fit contextually"
+    },
+    {
+      "id": "submark-logo",
+      "description": "Sub-mark logo variation",
+      "ratio": "3:1",
+      "formats_needed": ["SVG", "PNG (transparent)"],
+      "use": "Space-constrained contexts; consistent with primary brand feel"
+    },
+    {
+      "id": "logo-mark",
+      "description": "Logo mark only (abbreviated symbol)",
+      "ratio": "1.5:1 (height:width)",
+      "formats_needed": ["SVG", "PNG (transparent)"],
+      "use": "Social media profile images, favicons, compact placements",
+      "sizes": {
+        "favicon": "48x48px",
+        "facebook": "180x180px",
+        "twitter": "400x400px",
+        "instagram": "110x110px",
+        "linkedIn": "400x400px",
+        "tikTok": "20x20px",
+        "youTube": "800x800px"
+      }
+    },
+    {
+      "id": "reversed-logo",
+      "description": "Reversed (white) version of primary logo for dark backgrounds",
+      "formats_needed": ["SVG", "PNG (transparent)"],
+      "use": "Dark background contexts"
+    }
+  ],
+  "hero_images": [
+    {
+      "id": "home-hero",
+      "description": "Homepage hero — Kisumu/Nyanza community scene, empowering and warm tone",
+      "dimensions": "1920x1080px minimum",
+      "style": "Clean, sophisticated, well-lit with minimal distractions",
+      "notes": "Should reflect KISWA brand colors: turquoise, red, black, gold accents"
+    },
+    {
+      "id": "about-hero",
+      "description": "About page hero — community gathering or advocacy scene",
+      "dimensions": "1920x600px minimum",
+      "style": "Warm, documentary feel"
+    },
+    {
+      "id": "programs-hero",
+      "description": "Programmes page hero — health care or training session scene",
+      "dimensions": "1920x600px minimum",
+      "style": "Clean, professional, action-oriented"
+    },
+    {
+      "id": "contact-hero",
+      "description": "Contact page hero — office or community center",
+      "dimensions": "1920x600px minimum"
+    }
+  ],
+  "post_images": [
+    {
+      "id": "welcome-post-featured",
+      "description": "Featured image for welcome post — KISWA members, celebratory",
+      "dimensions": "1200x628px (social share optimized)"
+    },
+    {
+      "id": "our-story-post-featured",
+      "description": "Featured image for Our Story post — historical or founding moment feel",
+      "dimensions": "1200x628px"
+    }
+  ],
+  "upload_instructions": {
+    "tool": "ftp_upload or wp_get_media",
+    "web_spec": {
+      "size": "1200px wide minimum",
+      "resolution": "72 dpi",
+      "formats": ["JPEG", "PNG", "GIF"]
+    },
+    "print_spec": {
+      "size": "3000px wide minimum",
+      "resolution": "300 dpi",
+      "formats": ["TIFF", "EPS"]
+    }
+  }
+}
