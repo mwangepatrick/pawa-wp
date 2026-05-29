@@ -48,7 +48,7 @@ H1/H2 headings: Unity Red `#E8342A` (except on dark/photo backgrounds — use wh
 **Content:**
 - Headline (Quicksand 700, white, large): *"Together We Rise, Together We Stand"* *(or equivalent — confirm with client)*
 - Sub-line (Nunito Sans, white, 18px): *"Mwangaza Integrated Project fights for the rights of communities along the Sondu Miriu, Kabondo East — through evidence, advocacy, and unity."*
-- Primary CTA: **"Support Our Work"** — Gold `#F5A320`, dark text, rounded corners → `/donation/`
+- Primary CTA: **"Get Involved"** — Gold `#F5A320`, dark text, rounded corners → `/volunteers/`
 - Secondary CTA: **"Our Story"** — white ghost button (white border, white text) → `/about/`
 
 **Elementor notes:** Use full-height container with background image + overlay. Text column as inner container. Two buttons side by side (stacked on mobile).
@@ -196,9 +196,9 @@ H1/H2 headings: Unity Red `#E8342A` (except on dark/photo backgrounds — use wh
 **3 cards:**
 | Title | One-liner | CTA | Destination |
 |---|---|---|---|
-| Donate | Fund the advocacy, training, and field work that drives real change | "Donate Now" | `/donation/` |
 | Volunteer | Bring your skills to Kabondo East or support us remotely | "Get Involved" | `/volunteers/` |
 | Partner | Organisations and institutions — let's amplify impact together | "Work With Us" | `/contact/` |
+| Stay Updated | Follow our advocacy journey — field updates, events, and wins | "Read Our Blog" | `/blog/` |
 
 **Each card:** White outline icon, Quicksand 700 white title, Nunito Sans `#FEF3E2` one-liner, Gold `#F5A320` CTA button with dark text.
 
@@ -230,6 +230,7 @@ Alternating backgrounds (cream / white / purple / cream / white / white / dark) 
 - [ ] Verified impact stats — replace demo numbers
 - [ ] Partner logos — transparent PNG, confirm full list
 - [ ] Headline copy — confirm or replace suggested copy with client-approved wording
+- [ ] Section 8 heading — update "Your Help Can Change Lives" if donation-focused feel is too strong without the Donate card
 
 ---
 
@@ -237,12 +238,11 @@ Alternating backgrounds (cream / white / purple / cream / white / white / dark) 
 
 | CTA | Destination | Current status |
 |---|---|---|
-| Support Our Work | `/donation/` | ⚠️ Draft — must publish before hero CTA works |
+| Get Involved | `/volunteers/` | ✅ Published |
 | Our Story | `/about/` | ✅ Published |
 | See All Programmes | `/service/` | ✅ Published |
 | Read Our Full Story | `/about/` | ✅ Published |
-| Donate Now | `/donation/` | ⚠️ Draft |
-| Get Involved | `/volunteers/` | ✅ Published |
 | Work With Us | `/contact/` | ✅ Published |
+| Read Our Blog | `/blog/` | ✅ Published |
 
-**Critical:** `/donation/` must be published before this homepage goes live — two CTAs link to it.
+All linked pages are published. No blockers before build.
