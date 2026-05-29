@@ -69,10 +69,10 @@ If cache MUST be cleared via tools: first read and save every file in `public_ht
 | Key contacts | ✅ resolved | Full leadership table in profile.md |
 | Sondu Miriu content | ✅ resolved | Full petition history and causes in causes.md + services.md |
 | Programme details | ✅ resolved | All 8 programmes filled in services.md |
-| Facebook URL | ❌ missing | Icon on site but no link |
-| Twitter/X URL | ❌ missing | Icon on site but no link |
-| LinkedIn URL | ❌ missing | Icon on site but no link |
-| Instagram URL | ❌ missing | Icon on site but no link |
+| Facebook URL | ✅ resolved | https://facebook.com/groups/144311313691995/ |
+| Twitter/X URL | ❌ missing | Not provided — remove icon or leave pending |
+| LinkedIn URL | ✅ resolved | https://www.linkedin.com/groups/22115011 |
+| Instagram URL | ❌ missing | Not provided — remove icon or leave pending |
 | Logo file | ✅ resolved | `C:\Users\ADMIN\Downloads\mwangaza_logo.jpg` — upload to WP, record ID in brand/assets/README.md |
 | Brand colours | ✅ resolved | Extracted from logo — see brand/colors/palette.md |
 | Donation payment method | ❌ missing | M-Pesa, bank details or plugin needed |
