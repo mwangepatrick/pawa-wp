@@ -83,18 +83,36 @@ Each event renders as a card:
 **Section label:** Grey uppercase "2025 Events — All Completed" above the list, with a full-width dividing line.
 
 ### Implementation method
-1. **Enable description:** Update Elementor data for page 1943 — set `vl_event_content: "yes"` in widget settings
-2. **Set excerpts:** PHP one-shot script to set `post_excerpt` on each of the 5 event posts (IDs 6181–6185)
-3. **Category terms:** PHP one-shot script to create 3 taxonomy terms (`advocacy`, `governance`, `community`) under `events-cat` and assign them to the correct event posts
-4. **Custom CSS + category JS:** Inject CSS into page 1943's Elementor page settings (`custom_css`) that transforms `.event-bg-flex`, `.event-date`, `.event-content`, `.title`, `.details` into the Refined List design. A small inline JavaScript snippet (added as an Elementor HTML widget on the page) reads each event item's `.title` link href, extracts the post slug, and adds a `data-category` attribute (`advocacy`, `governance`, or `community`) to the parent `.event-bg-flex` element using a hardcoded slug→category map. CSS then targets `[data-category="advocacy"]`, `[data-category="governance"]`, `[data-category="community"]` for accent bar colour and pill label/colour. Slug map: `kengen-stakeholder-forum` → advocacy, `address-to-cabinet-secretary-for-energy` → advocacy, `agm-constitutional-reforms-governance-upgrade` → governance, `constitution-adoption-meeting` → governance, `drug-free-society-campaign` → community.
-5. **Section label:** Add a small Heading/Text widget above the vl-event widget in the Elementor container, styled in grey uppercase
+
+**Chosen approach: edit `vl-event.php` directly** (Option 2). The VL Core plugin is a theme-bundled plugin at v1.0.0 with no update history — the file is safe to edit. Changes are isolated to the layout-3 render block.
+
+1. **Edit `vl-event.php` layout-3 template** (FTP download → edit → upload):
+   - Split `helpy_event_date` meta output into three `<span>` elements: `<span class="ev-month">`, `<span class="ev-day">`, `<span class="ev-year">` — parsed from the "Sep 29, 2025" string via PHP `date_create_from_format` or `explode`
+   - Add `get_the_terms()` call for `events-cat` taxonomy; output the first term slug as a `data-category` attribute on `.event-bg-flex` and as a `<span class="ev-cat-pill">` label above the title
+   - Ensure `the_excerpt()` renders (already controlled by widget setting — just confirm the HTML wrapper is present)
+   - No changes to any other layout (layout-1, layout-2, layout-4)
+
+2. **Enable description:** Update Elementor data for page 1943 — set `vl_event_content: "yes"` in widget settings via `wp_update_elementor_data`
+
+3. **Set excerpts:** PHP one-shot script to set `post_excerpt` on event posts 6181–6185
+
+4. **Assign categories:** PHP one-shot script to create 3 `events-cat` terms (`Advocacy`, `Governance`, `Community`) and assign:
+   - Advocacy → posts 6181 (KENGEN), 6185 (CS Energy)
+   - Governance → posts 6182 (AGM), 6184 (Constitution)
+   - Community → post 6183 (Drug-Free Campaign)
+
+5. **Custom CSS:** Inject into page 1943 Elementor page settings (`custom_css`) — styles the new HTML structure: card layout, date block, accent bar colour per `[data-category]`, pill colours, "Read More →" link style
+
+6. **Section label:** Add a Heading widget above the vl-event widget in the Elementor container
+
+7. **Hero:** Replace the broken hero widget with a new Elementor container (dark gradient background, Heading widget, Divider widget, Text widget)
 
 ---
 
 ## What Is Not Changing
 
 - The 5 event posts (IDs 6181–6185) — content and meta stay as-is
-- The `vl-event` widget type and layout-3 — no PHP file edits
+- The `vl-event` widget type and other layouts (layout-1, 2, 4) — only layout-3 render block is touched
 - The CTA banner below the list ("Your Help Can Change Lives") — already in the Elementor template, leave it
 - No plugin installs, no theme file edits
 
@@ -104,9 +122,10 @@ Each event renders as a card:
 
 | Resource | Change |
 |---|---|
+| `vl-core/include/elementor/vl-event.php` | layout-3 block: date split, category data-attr + pill, excerpt wrapper |
 | WP page 1943 Elementor data | Hero widget replaced; `vl_event_content` enabled; section label widget added; `custom_css` injected |
 | Event posts 6181–6185 | `post_excerpt` set via PHP script |
-| `events-cat` taxonomy | 3 terms created: advocacy, governance, community |
+| `events-cat` taxonomy | 3 terms created: Advocacy, Governance, Community |
 | Event post terms | Posts assigned to their category terms |
 
 ---
