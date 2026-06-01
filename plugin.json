@@ -1,0 +1,6 @@
+{
+  "name": "pawa-wp",
+  "version": "1.0.0",
+  "description": "WordPress site management via pawa-wp-mcp",
+  "skills": ["wp-manager"]
+}
