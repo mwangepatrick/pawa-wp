@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Gender Inclusion and Awareness icon">
+  <circle cx="256" cy="256" r="208" fill="#FEF3E2" opacity=".9"/>
+  <g stroke="#1A1A1A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="208" cy="190" r="28" fill="#E8342A"/>
+    <path d="M208 218v104M174 260h68M174 322h68" fill="none"/>
+    <circle cx="304" cy="190" r="28" fill="#72D64A"/>
+    <path d="M304 218v104M270 260h68M270 322h68" fill="none"/>
+    <path d="M256 140v62M224 172h64" fill="none" stroke="#F5A320"/>
+    <circle cx="256" cy="150" r="8" fill="#F5A320" stroke="none"/>
+    <path d="M236 318c12 14 28 22 48 22 20 0 36-8 48-22" fill="none"/>
+  </g>
+</svg>

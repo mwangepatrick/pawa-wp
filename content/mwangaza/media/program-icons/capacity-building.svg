@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Community Capacity Building and Networking icon">
+  <circle cx="256" cy="256" r="208" fill="#FEF3E2" opacity=".9"/>
+  <g stroke="#1A1A1A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="256" r="56" fill="#F5A320"/>
+    <circle cx="256" cy="156" r="24" fill="#E8342A"/>
+    <circle cx="356" cy="256" r="24" fill="#72D64A"/>
+    <circle cx="256" cy="356" r="24" fill="#8544AD"/>
+    <circle cx="156" cy="256" r="24" fill="#F5A320"/>
+    <path d="M256 180v20M330 256h-20M256 332v-20M182 256h20" fill="none"/>
+    <path d="M280 222l48-48M280 290l48 48M232 290l-48 48M232 222l-48-48" fill="none" opacity=".8"/>
+    <path d="M232 256c0 13 11 24 24 24s24-11 24-24-11-24-24-24-24 11-24 24Z" fill="#FEF3E2"/>
+  </g>
+</svg>

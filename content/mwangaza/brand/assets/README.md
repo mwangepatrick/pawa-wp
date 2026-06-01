@@ -7,6 +7,7 @@
 | **Primary logo (current)** | **6012** | `/wp-content/uploads/2026/05/Mwangaza-Intergrated-Logo.png` | ✅ live on site |
 | Logo (cropped/favicon crop) | 6025 | `/wp-content/uploads/2026/05/cropped-Mwangaza-Intergrated-Logo.png` | ✅ set as site icon |
 | Old leaf logo (dark bg) | 6003 | `/wp-content/uploads/2026/05/mwangaza_logo.jpg` | ⚠️ not in use — keep as archive |
+| Programme illustration set | TBD | `/wp-content/uploads/2026/05/program-icons/*.svg` | ⚠️ pending upload |
 
 ## Logo Description
 - **Icon:** Three hands (different skin tones) raised together with a golden sunburst — unity and community

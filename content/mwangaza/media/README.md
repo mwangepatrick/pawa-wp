@@ -2,6 +2,7 @@
 
 ## Status
 15 real images available from processed source documents. All need review before upload.
+8 new programme illustration icons created locally and ready for upload.
 
 ## Source Location
 `C:\Users\ADMIN\Downloads\mwangaza\processed\assets\` (Windows)
@@ -36,3 +37,4 @@
 |---|---|---|---|
 | TBD | logo | Primary logo | ❌ needed from client |
 | TBD | image_001–015 | Source document images | ⚠️ pending review + upload |
+| TBD | program-icons/*.svg | 8 programme illustration icons | ⚠️ pending upload |

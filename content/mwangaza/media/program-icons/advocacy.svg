@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Human Rights Advocacy icon">
+  <circle cx="256" cy="256" r="208" fill="#FEF3E2" opacity=".9"/>
+  <g stroke="#1A1A1A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 324h212" fill="none"/>
+    <path d="M170 324V236l86-38 86 38v88" fill="#EDF9E6"/>
+    <path d="M188 324V252h136v72" fill="#FFFFFF" opacity=".7"/>
+    <path d="M204 252h104M204 276h104M204 300h104" fill="none" stroke="#E8342A" opacity=".55"/>
+    <path d="M256 180l76 38-76 38-76-38 76-38Z" fill="#F5A320"/>
+    <path d="M256 218v106" fill="none"/>
+    <path d="M212 204h88" fill="none" stroke="#72D64A"/>
+    <path d="M330 214l58-18-18 58-12-18-30 30" fill="#E8342A"/>
+  </g>
+</svg>

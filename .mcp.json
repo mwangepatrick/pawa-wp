@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pawa-wp-mcp": {
+      "command": "npx",
+      "args": ["tsx", "/home/pixel/projects/personal/wp/pawa-wp-mcp/src/index.ts"],
+      "cwd": "/home/pixel/projects/personal/wp/pawa-wp-mcp"
+    }
+  }
+}

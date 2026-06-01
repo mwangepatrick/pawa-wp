@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Education Support icon">
+  <circle cx="256" cy="256" r="208" fill="#FEF3E2" opacity=".9"/>
+  <g stroke="#1A1A1A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M146 334h220" fill="none"/>
+    <path d="M176 334V236l80-44 80 44v98" fill="#EDF9E6"/>
+    <path d="M196 334v-74h120v74" fill="#FFFFFF" opacity=".7"/>
+    <path d="M208 256h96M208 282h96M208 308h96" fill="none" stroke="#E8342A" opacity=".5"/>
+    <path d="M326 212h28l24 24v98h-52" fill="#F5A320"/>
+    <path d="M336 224h18v36h-18z" fill="#FEF3E2"/>
+    <path d="M196 214h120" fill="none" stroke="#72D64A"/>
+    <path d="M238 196v18M274 196v18" fill="none" stroke="#72D64A"/>
+    <path d="M232 364h88" fill="none"/>
+    <path d="M256 352v-22" fill="none" stroke="#E8342A"/>
+  </g>
+</svg>

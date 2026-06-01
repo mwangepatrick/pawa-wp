@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Economic Empowerment icon">
+  <circle cx="256" cy="256" r="208" fill="#FEF3E2" opacity=".9"/>
+  <g stroke="#1A1A1A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 348h212" fill="none"/>
+    <path d="M200 348c0-54 29-88 56-88s56 34 56 88" fill="#F5A320"/>
+    <path d="M228 290c-16 12-25 31-25 54" fill="none" stroke="#72D64A"/>
+    <path d="M284 290c16 12 25 31 25 54" fill="none" stroke="#72D64A"/>
+    <path d="M256 224v88" fill="none" stroke="#E8342A"/>
+    <path d="M256 224c-20 0-36 16-36 36h36" fill="#EDF9E6"/>
+    <path d="M256 224c20 0 36 16 36 36h-36" fill="#EDF9E6"/>
+    <circle cx="256" cy="388" r="22" fill="#72D64A"/>
+    <path d="M256 374v28M242 388h28" fill="none"/>
+  </g>
+</svg>
