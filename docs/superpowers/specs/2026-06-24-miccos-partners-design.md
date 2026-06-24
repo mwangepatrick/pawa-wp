@@ -36,7 +36,7 @@ WordPress handles URL nesting automatically via Page Attributes → Parent. New 
 | Slug | Full Name | Acronym |
 |---|---|---|
 | caso | Community Actions Support Organization | CASO |
-| forgotten-voices-foundation | Forgotten Voices Foundation | FVF |
+| forgotten-voices-foundation | Forgotten Voices Foundation | — |
 | funguo-cbo | Funguo Community Based Organization | FUNGUO CBO |
 | obacodep | Obama Health & Community Development Programme | OBACODEP |
 | planearthwise-cbo | PlanEarthWise Community Based Organization | PlanEarthWise |
@@ -55,12 +55,13 @@ WSL path: `/mnt/c/Users/ADMIN/Downloads/members-20260624T121433Z-3-001/partners-
 **Shortcode tag:** `[miccos_partners]`
 
 **Behaviour:**
-- Queries all published pages with `post_parent` = the ID of the Partners page
+- Resolves the Partners page ID dynamically via `get_page_by_path('partners')` — not hardcoded
+- Queries all published pages with `post_parent` = that resolved ID
 - Orders by menu order (allows manual reordering from WP admin)
 - Renders a responsive CSS grid of cards
 
 **Card anatomy:**
-- Featured image (org logo, square crop)
+- Featured image (org logo, square crop). Fallback: site accent colour block with org initials if no featured image set.
 - Org full name (heading)
 - Page excerpt (mission statement, max 2 lines)
 - "View Profile" button linking to the partner page
@@ -74,7 +75,7 @@ WSL path: `/mnt/c/Users/ADMIN/Downloads/members-20260624T121433Z-3-001/partners-
 - New WordPress page: title "Partners", slug `partners`
 - Built with Elementor
 - Sections: hero banner (site colours, heading "Our Partners", short intro text) → shortcode widget with `[miccos_partners]`
-- Added to site navigation menu
+- Added to site navigation menu as a **top-level item** (alongside Home, About, Programs, Events, Blog, Contact)
 
 ## Component 3: Elementor Partner Profile Template
 
@@ -84,11 +85,11 @@ One saved Elementor template named **"Partner Profile"** stored as a global page
 
 | # | Section | Content source |
 |---|---|---|
-| 1 | Hero | Featured image as background, org name + acronym as overlay heading, one-line mission as subheading |
+| 1 | Hero | Solid site-colour background; org logo displayed as image element (not background); org name + acronym as heading below; one-line mission as subheading |
 | 2 | About | Rich text block — introduction / profile narrative |
 | 3 | Focus Areas | Icon list or columns — thematic areas of work |
 | 4 | Contact | Two-column layout: address / phone / email / website / contact person |
-| 5 | Gallery | Elementor Image Gallery widget — activity photos |
+| 5 | Gallery | Elementor Image Gallery widget — activity photos. Section hidden (CSS `display:none`) when no images are provided (OBACODEP, PlanEarthWise have no activity photos in source data). |
 
 ## Component 4: Per-Partner Page Setup
 
@@ -97,7 +98,7 @@ For each of the 9 partners:
 2. Set Page Attributes → Parent: Partners
 3. Set Featured Image (org logo from images folder)
 4. Write Page Excerpt (mission statement, 1–2 sentences)
-5. Apply "Partner Profile" Elementor template
+5. Apply "Partner Profile" Elementor template; set Page Layout → **Default** (not Elementor Canvas) to keep VL Core header/footer
 6. Fill in template sections from `index.md` source data
 7. Upload activity photos for gallery section
 8. Publish
@@ -109,7 +110,7 @@ For each of the 9 partners:
 3. Page Attributes → Parent = Partners
 4. Featured Image = logo
 5. Excerpt = mission (shown on listing card)
-6. Elementor → Apply Template → "Partner Profile"
+6. Elementor → Apply Template → "Partner Profile"; set Page Layout → Default
 7. Fill in sections, add gallery images
 8. Publish → appears on `/partners/` automatically
 
