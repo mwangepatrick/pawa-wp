@@ -4,3 +4,6 @@
 [submodule "pawa-wp-mcp"]
 	path = pawa-wp-mcp
 	url = git@github.com-personal:mwangepatrick/pawa-wp-mcp.git
+[submodule "plugins/mmoney-code-generator"]
+	path = plugins/mmoney-code-generator
+	url = git@github.com-personal:mwangepatrick/mmoney-code-generator.git
