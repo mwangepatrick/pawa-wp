@@ -7,3 +7,6 @@
 [submodule "plugins/mmoney-code-generator"]
 	path = plugins/mmoney-code-generator
 	url = git@github.com-personal:mwangepatrick/mmoney-code-generator.git
+[submodule "plugins/pawa-manifest"]
+	path = plugins/pawa-manifest
+	url = git@github.com-personal:mwangepatrick/pawa-manifest.git
