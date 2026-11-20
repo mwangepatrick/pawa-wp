@@ -10,3 +10,6 @@
 [submodule "plugins/pawa-manifest"]
 	path = plugins/pawa-manifest
 	url = git@github.com-personal:mwangepatrick/pawa-manifest.git
+[submodule "plugins/pawa-docs-site"]
+	path = plugins/pawa-docs-site
+	url = git@github.com-personal:mwangepatrick/pawa-docs-site.git
